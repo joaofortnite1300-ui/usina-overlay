@@ -1,0 +1,42 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+.box {
+  background: rgba(0, 0, 0, 0.85);
+  border: 3px solid #00ff88;
+  border-radius: 12px;
+  padding: 30px 50px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+}
+.box h1 {
+  color: #00ff88;
+  margin: 0 0 20px 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.bar {
+  width: 300px;
+  height: 20px;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00ff88, #00ccff);
+  transition: width 0.3s;
+}
+.box p {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
