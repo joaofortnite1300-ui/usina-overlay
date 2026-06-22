@@ -3,7 +3,7 @@
     "beforeBuildCommand": "",
     "beforeDevCommand": "",
     "devPath": "../",
-    "distDir": "../"
+"distDir": "../",
   },
   "package": {
     "productName": "Usina Overlay",
